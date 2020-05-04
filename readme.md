@@ -9,7 +9,7 @@ The whole project was performed on AWS EMR. First, a EMR cluster was configured.
 <br>
 <Strong>Part 1: </Strong>
 Install and import the necessary dependencies for the analysis. The dataset is also loaded from s3 as PySpark dataframe.
-<br>
+<br><br>
 
 <Strong>Part 2: </Strong>
 I will perform some basic analysis on the business categories.
@@ -31,4 +31,4 @@ I will use the data to see should we trust the Yelp elite user based on the rati
 
 <h2>S3 Bucket</h2>
 Click <a href="https://s3.us-east-2.amazonaws.com/sta9760-project2-yelp-data/yelp_academic_dataset_business.json">here</a> to see the business dataset, which is one of the three datasets in my s3 bucket.
-<img src="./assets/notebook_config.png">
+<img src="./assets/s3_bucket.png">
